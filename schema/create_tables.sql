@@ -1,0 +1,2 @@
+-- SQL schema for E-commerce Analytics Project
+-- This file contains table creation scripts
