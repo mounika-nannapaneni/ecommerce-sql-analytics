@@ -26,6 +26,7 @@ The dataset consists of multiple interconnected tables representing a modern e-c
 - **reviews** – customer ratings and feedback  
 - **events** – user interaction events (views, cart, wishlist)
 
+> For a detailed overview of each CSV file, column names, and data types, see dataset/README.md
 ---
 
 ## Project Objectives
