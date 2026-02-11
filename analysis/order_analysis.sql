@@ -1,11 +1,19 @@
--- Calculate average order value (AOV) by dividing total completed order revenue by total number of completed orders
+-- Average Order Value (AOV):
+-- Business Question: What is the average revenue generated per completed order?
+
 SELECT 
     SUM(total_amount) / COUNT(order_id) AS average_order_value
 FROM orders
 WHERE order_status = 'completed';
 
 
--- Calculate total number of orders per month to analyze monthly sales trends and seasonality
-select date_trunc('month', order_date) As month, count(order_id) 
-from orders 
-group by month;
+-- Monthly Order Volume:
+-- Business Question: How many orders are placed each month to analyze sales trends and seasonality?
+
+SELECT 
+    DATE_TRUNC('month', order_date) AS month,
+    COUNT(order_id) AS total_orders
+FROM orders
+WHERE order_status = 'completed'
+GROUP BY month
+ORDER BY month;
