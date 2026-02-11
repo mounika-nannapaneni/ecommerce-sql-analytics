@@ -1,4 +1,5 @@
--- Identify the top 5 customers who generated the highest total revenue based on completed orders to help the business focus on high-value customers for retention and targeted marketing.
+-- Top 5 Customers by Revenue:
+-- Business Question: Who are the top 5 customers generating the highest total revenue from completed orders?
 SELECT 
     users.user_id,
     users.name,
@@ -12,7 +13,8 @@ ORDER BY total_revenue DESC
 LIMIT 5;
 
 
--- Classify customers as one-time or repeat buyers based on number of completed orders to measure customer retention and loyalty
+-- Customer Classification:
+-- Business Question: How many customers are one-time buyers versus repeat buyers based on completed orders?
 SELECT
     customer_type,
     COUNT(*) AS customer_count
