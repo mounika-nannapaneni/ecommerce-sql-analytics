@@ -1,5 +1,3 @@
-
-
 -- Total Revenue:
 -- Business Question: What is the total revenue from completed orders?
 
