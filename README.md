@@ -82,8 +82,3 @@ The following diagram illustrates the relational structure of the e-commerce dat
 - **analysis/** – SQL scripts for validation and business analysis  
 - **README.md** – Project documentation  
 
----
-
-## Project Status
-This project is currently **in progress**.  
-Additional advanced customer and behavioral analytics will be added.
