@@ -47,7 +47,8 @@ All tables are connected using primary and foreign key relationships to maintain
 ## Entity Relationship Diagram (ERD)
 
 The following diagram illustrates the relational structure of the e-commerce database, including primary and foreign key relationships.
-![ERD]
+
+> ![ERD]schema/ERD.png
 
 ---
 ## Business Questions & Analytical Scope
