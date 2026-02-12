@@ -2,9 +2,7 @@
 
 ## Project Overview
 This project analyzes a multi-table e-commerce dataset using PostgreSQL to uncover key insights into revenue performance, customer behavior, and product trends.
-
 The analysis simulates real-world business analytics workflows including data validation, revenue analysis, customer segmentation, and product performance evaluation.
-
 Key findings from the analysis reveal revenue concentration among top customers, strong contribution from repeat buyers, and category-level sales variation that can inform strategic decision-making.
 
 ---
@@ -77,10 +75,8 @@ The following diagram illustrates the relational structure of the e-commerce dat
 - Data quality validation checks
 
 ---
+
 ## Project Structure
-
-## 📁 Project Structure
-
 - **dataset/** – Raw CSV data files  
 - **schema/** – Database schema and ERD  
 - **analysis/** – SQL scripts for validation and business analysis  
