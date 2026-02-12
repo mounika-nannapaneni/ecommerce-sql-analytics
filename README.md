@@ -1,4 +1,4 @@
-# E-commerce SQL Analytics Project
+# End-to-End E-commerce Data Analysis with PostgreSQL
 
 ## Project Overview
 This project analyzes a multi-table e-commerce dataset using PostgreSQL to uncover key insights into revenue performance, customer behavior, and product trends.
