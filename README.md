@@ -51,13 +51,13 @@ All tables are connected using primary and foreign key relationships to maintain
 > For the complete list of documented business questions, refer to: analysis/business_questions.md
 
 ## Key Insights
-- Total revenue from completed orders:
-- Monthly revenue shows consistent growth with seasonal spikes in Q4
-- Top 10% of customers generate approximately XX% of total revenue
-- Repeat customers contribute XX% of total revenue
-- Average Order Value (AOV): $X
-- Top-performing category: Category_Name
-- Revenue is concentrated among a small segment of high-value customers
+- **Total Revenue from completed orders:** $2,419,712.58
+- **Revenue Trend & Seasonality:** Monthly revenue shows moderate fluctuations, with noticeable spikes in March 2024 and May–June 2025, indicating mild seasonality rather than strong Q4 dependency. Revenue stabilizes above $100K in most 2025 months, suggesting improving consistency.
+- **Revenue Concentration:** The top 10% of customers generate 39.22% of total revenue, demonstrating moderate revenue concentration among high-value customers.
+- **Customer Retention Impact:** Repeat customers contribute 32.05% of total revenue. While repeat buyers play a meaningful role, revenue still relies significantly on first-time purchasers, highlighting opportunities to strengthen retention strategies.
+- **Average Order Value (AOV):** $601.77, indicating relatively high per-transaction spending.
+- **Top-Performing Category:** Electronics, contributing the largest share of total revenue and acting as the primary revenue driver.
+- **Strategic Insight:** Revenue is partially concentrated among a small segment of high-value customers, suggesting the business would benefit from targeted loyalty programs, personalized marketing, and retention initiatives to maximize lifetime value and reduce dependency risk.
 
 ---
 
