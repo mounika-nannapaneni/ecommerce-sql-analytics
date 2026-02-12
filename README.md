@@ -1,10 +1,22 @@
 # E-commerce SQL Analytics Project
 
 ## Project Overview
-This project focuses on analyzing an e-commerce platform using SQL to uncover insights related to sales performance, customer behavior, and product trends.
+This project analyzes a multi-table e-commerce dataset using PostgreSQL to uncover key insights into revenue performance, customer behavior, and product trends.
 
-The analysis is performed using **PostgreSQL**, simulating real-world business analytics scenarios.
+The analysis simulates real-world business analytics workflows including data validation, revenue analysis, customer segmentation, and product performance evaluation.
 
+Key findings from the analysis reveal revenue concentration among top customers, strong contribution from repeat buyers, and category-level sales variation that can inform strategic decision-making.
+
+---
+
+## Project Objectives
+- Analyze overall revenue performance and growth trends
+- Identify high-value customers and purchasing behavior patterns
+- Evaluate product and category-level sales performance
+- Measure revenue concentration across customer segments
+- Perform structured data validation to ensure data integrity
+- Simulate real-world business analytics using SQL
+  
 ---
 
 ## Tools & Technologies
@@ -16,8 +28,8 @@ The analysis is performed using **PostgreSQL**, simulating real-world business a
 
 ---
 
-## Dataset Description
-The dataset consists of multiple interconnected tables representing a modern e-commerce system:
+## Dataset Overview
+The dataset consists of six interconnected tables representing a modern e-commerce platform:
 
 - **users** – customer demographics and signup details  
 - **products** – product catalog and pricing  
@@ -26,25 +38,47 @@ The dataset consists of multiple interconnected tables representing a modern e-c
 - **reviews** – customer ratings and feedback  
 - **events** – user interaction events (views, cart, wishlist)
 
-> For a detailed overview of each CSV file, column names, and data types, see dataset/README.md
----
+All tables are connected using primary and foreign key relationships to maintain referential integrity.
 
-## Project Objectives
-- Analyze overall sales performance
-- Identify top customers and products
-- Perform category-level and time-based analysis
-- Understand customer behavior and engagement patterns
+> For detailed column-level documentation, refer to dataset/README.md
 
 ---
 
-## Key Analysis Areas (In Progress)
-- Sales trend analysis
-- Customer segmentation
-- Product performance analysis
-- User behavior funnel analysis
+## Key Insights
+- Total revenue from completed orders:
+- Monthly revenue shows consistent growth with seasonal spikes in Q4
+- Top 10% of customers generate approximately XX% of total revenue
+- Repeat customers contribute XX% of total revenue
+- Average Order Value (AOV): $X
+- Top-performing category: Category_Name
+- Revenue is concentrated among a small segment of high-value customers
+
+---
+
+## Advanced Analysis Implemented
+- Revenue concentration (Pareto analysis – Top 10% customers)
+- Customer classification (one-time vs repeat buyers)
+- Monthly revenue and order trend analysis
+- Data quality validation checks
+
+---
+## Project Structure
+
+ecommerce-sql-analytics/
+│
+├── dataset/
+├── schema/
+├── analysis/
+│   ├── data_validation.sql
+│   ├── revenue_analysis.sql
+│   ├── order_analysis.sql
+│   ├── customer_analysis.sql
+│   └── sales_analysis.sql
+│
+└── README.md
 
 ---
 
 ## Project Status
 This project is currently **in progress**.  
-Additional SQL queries and insights will be added incrementally.
+Additional advanced customer and behavioral analytics will be added.
