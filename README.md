@@ -48,7 +48,7 @@ All tables are connected using primary and foreign key relationships to maintain
 
 - This project answers key strategic business questions across revenue, customers, and product performance.
 
-> For the complete list of documented business questions, refer to: 
+> For the complete list of documented business questions, refer to: analysis/business_questions.md
 
 ## Key Insights
 - Total revenue from completed orders:
