@@ -44,6 +44,12 @@ All tables are connected using primary and foreign key relationships to maintain
 
 ---
 
+## Business Questions & Analytical Scope
+
+- This project answers key strategic business questions across revenue, customers, and product performance.
+
+> For the complete list of documented business questions, refer to: 
+
 ## Key Insights
 - Total revenue from completed orders:
 - Monthly revenue shows consistent growth with seasonal spikes in Q4
