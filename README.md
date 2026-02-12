@@ -5,7 +5,6 @@ This project analyzes a multi-table e-commerce dataset using PostgreSQL to uncov
 The analysis simulates real-world business analytics workflows including data validation, revenue analysis, customer segmentation, and product performance evaluation.
 Key findings from the analysis reveal revenue concentration among top customers, strong contribution from repeat buyers, and category-level sales variation that can inform strategic decision-making.
 
----
 
 ## Project Objectives
 - Analyze overall revenue performance and growth trends
@@ -14,8 +13,7 @@ Key findings from the analysis reveal revenue concentration among top customers,
 - Measure revenue concentration across customer segments
 - Perform structured data validation to ensure data integrity
 - Simulate real-world business analytics using SQL
-  
----
+
 
 ## Tools & Technologies
 - PostgreSQL
@@ -24,7 +22,6 @@ Key findings from the analysis reveal revenue concentration among top customers,
 - Kaggle E-commerce Dataset
 - GitHub
 
----
 
 ## Dataset Overview
 The dataset consists of six interconnected tables representing a modern e-commerce platform:
@@ -40,7 +37,7 @@ All tables are connected using primary and foreign key relationships to maintain
 
 > For detailed column-level documentation, refer to dataset/README.md
 
----
+
 
 ## Entity Relationship Diagram (ERD)
 
@@ -48,14 +45,14 @@ The following diagram illustrates the relational structure of the e-commerce dat
 
 > ![ERD](schema/ERD.png)
 
----
+
 ## Business Questions & Analytical Scope
 
 - This project answers key strategic business questions across revenue, customers, and product performance.
 
 > For the complete list of documented business questions, refer to: analysis/business_questions.md
 
----
+
 
 ## Key Insights
 - **Total Revenue from completed orders:** $2,419,712.58
@@ -66,7 +63,6 @@ The following diagram illustrates the relational structure of the e-commerce dat
 - **Top-Performing Category:** Electronics, contributing the largest share of total revenue and acting as the primary revenue driver.
 - **Strategic Insight:** Revenue is partially concentrated among a small segment of high-value customers, suggesting the business would benefit from targeted loyalty programs, personalized marketing, and retention initiatives to maximize lifetime value and reduce dependency risk.
 
----
 
 ## Advanced Analysis Implemented
 - Revenue concentration (Pareto analysis – Top 10% customers)
@@ -74,7 +70,6 @@ The following diagram illustrates the relational structure of the e-commerce dat
 - Monthly revenue and order trend analysis
 - Data quality validation checks
 
----
 
 ## Project Structure
 - **dataset/** – Raw CSV data files  
