@@ -44,11 +44,19 @@ All tables are connected using primary and foreign key relationships to maintain
 
 ---
 
+## Entity Relationship Diagram (ERD)
+
+The following diagram illustrates the relational structure of the e-commerce database, including primary and foreign key relationships.
+![ERD]
+
+---
 ## Business Questions & Analytical Scope
 
 - This project answers key strategic business questions across revenue, customers, and product performance.
 
 > For the complete list of documented business questions, refer to: analysis/business_questions.md
+
+---
 
 ## Key Insights
 - **Total Revenue from completed orders:** $2,419,712.58
