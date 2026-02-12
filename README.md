@@ -79,18 +79,12 @@ The following diagram illustrates the relational structure of the e-commerce dat
 ---
 ## Project Structure
 
-ecommerce-sql-analytics/
-│
-├── dataset/
-├── schema/
-├── analysis/
-│   ├── data_validation.sql
-│   ├── revenue_analysis.sql
-│   ├── order_analysis.sql
-│   ├── customer_analysis.sql
-│   └── sales_analysis.sql
-│
-└── README.md
+## 📁 Project Structure
+
+- **dataset/** – Raw CSV data files  
+- **schema/** – Database schema and ERD  
+- **analysis/** – SQL scripts for validation and business analysis  
+- **README.md** – Project documentation  
 
 ---
 
